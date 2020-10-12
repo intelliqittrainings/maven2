@@ -16,15 +16,4 @@ node('master')
         }
        
     }
-                 mail bcc: '', body: 'Jenkins is unable to create an artifact from the code', cc: '', from: '', replyTo: '', subject: 'Build Failed', to: 'devlopers@gmail.com' 
-                      exit(1)
-            }
-        }
-        
-    }
-    
-    
-    
-    
-    
-}
+ } 
